@@ -1,4 +1,4 @@
-package com.example.demo.repo.service.controller;
+package com.example.demo.controller;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -15,9 +15,9 @@ import com.example.demo.repo.modelo.Estudiante;
 import com.example.demo.repo.modelo.Materia;
 import com.example.demo.repo.modelo.Matricula;
 import com.example.demo.repo.modelo.MatriculaTo;
-import com.example.demo.repo.service.IEstudianteService;
-import com.example.demo.repo.service.IMateriaService;
-import com.example.demo.repo.service.IMatriculaService;
+import com.example.demo.service.IEstudianteService;
+import com.example.demo.service.IMateriaService;
+import com.example.demo.service.IMatriculaService;
 
 @Controller
 @RequestMapping("/matriculas")
